@@ -17,6 +17,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   transform: rotate(270deg);
 }
 
+#moods{
+  font-size: 50px;
+}
   .centered {
       position: absolute;
       top: 50%;
@@ -36,6 +39,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       left: 53%;
       transform: translate(-50%, -50%);
   }
+
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
 
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
@@ -59,13 +68,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-eye w3-xxlarge"></i>
     <p>MOODS</p>
   </a>
-  <a href="SpotiFeelsWeb.html#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="analytics.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
+    <p>ANALYTICS</p>
   </a>
-  <a href="SpotiFeelsWeb.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="entertainment.html" class="w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
+    <p>ENTERTAINMENT</p>
   </a>
 </nav>
 
@@ -83,28 +92,39 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 <body>
 
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64 w3-center" id="about">
-    <h2 style="font-size:100px;">
-    <h2 class="w3-text-light-grey w3-center">I'm Feeling...</h2>
-    <h2 style="font-size:50px;">
-        <img src="angry.JPEG" style="width:24.5%">
-        <img src="turnt.JPEG" style="width:33%">
-        <img src="gangsta.JPEG" style="width:25.5%">
-      </div>
+<div class="w3-content w3-justify w3-text-grey w3-padding-64 w3-center" id="about">
+  <h2 style="font-size:100px;">
+  <h2 class="w3-text-light-grey w3-center" id="moods"><i>I'm Feeling...</i></h2>
+    <div class="scrollmenu">
+    <a href="https://www.youtube.com/watch?v=A6APxbBYnoo&list=PL36D9BFA8F76A2645" target="_blank">
+      <img src="angry.JPEG" style="width:24.75%">
+    </a>
+    <a href="https://www.youtube.com/watch?v=vJwKKKd2ZYE&start_radio=1&list=RDQMqaw1O5_a2wg" target="_blank">
+      <img src="turnt.JPEG" style="width:32.80%">
+    </a>
+    <a href="https://www.youtube.com/watch?v=rEaPDNgUPLE&list=PLk4x27Q-FBogD3O6ctl0l3jZ8PeWwzv55" target="_blank">
+      <img src="gangsta.JPEG" style="width:25.25%">
+    </a>
+    <a href="https://www.youtube.com/watch?v=aJOTlE1K90k&list=PLinS5uF49IBo8HLKBDAjQaeiN4TjHi75Q" target="_blank">
+      <img src="happy.JPEG" style="width:26.05%">
+    </a>
+    <a href="https://www.youtube.com/watch?v=astISOttCQ0&list=PLv9yHJy8hGIj6SRm5oXi5KZ3scthqOvxD" target="_blank">
+      <img src="memish.JPEG" style="width:32.4%">
+    </a>
+    <a href="https://www.youtube.com/watch?v=Ph54wQG8ynk&list=PL3-sRm8xAzY-w9GS19pLXMyFRTuJcuUjy" target="_blank">
+      <img src="inmyfeels.JPEG" style="width:26.75%">
+    </a>
+    <a href="https://www.youtube.com/watch?v=WVP3fUzQHcg&list=RDEMtNQFvfuO0gC3aL7J4ui-0Q&start_radio=1" target="_blank">
+      <img src="studying.JPEG" style="width:33.25%">
+    </a>
+    <a href="https://www.youtube.com/watch?v=SYM-RJwSGQ8&start_radio=1&list=RDQMjK1M9xV91p0" target="_blank">
+      <img src="vibin.JPEG" style="width:24.80%">
+    </a>
+    <a href="https://www.youtube.com/watch?v=hT_nvWreIhg&list=PLhGO2bt0EkwvRUioaJMLxrMNhU44lRWg8" target="_blank">
+      <img src="motivation.JPEG" style="width:24.45%">
+    </a>
+</div>
 
-      <div class="w3-content w3-center">
-        <h2 style="font-size:50px;">
-        <img src="happy.JPEG" style="width:24.25%">
-        <img src="memish.JPEG" style="width:33%">
-        <img src="inmyfeels.JPEG" style="width:27.5%">
-      </div>
-
-      <div class="w3-content w3-center">
-        <h2 style="font-size:50px;">
-        <img src="studying.JPEG" style="width:33%">
-        <img src="vibin.JPEG" style="width:25%">
-        <img src="motivation.JPEG" style="width:25%">
-      </div>
 </body>
 
     <!-- Footer -->
